@@ -9,6 +9,14 @@ app.get("/:operation/:val1/:val2", function(req, res) {
   switch (operation) {
     case "add":
       res.json(val1 + val2);
+    case "subtract":
+      res.json(val1 - val2);
+    case "multiply":
+      res.json(val1 * val2);
+    case "divide":
+      res.json(val1 / val2);
+    default:
+      res.json("Please use one of the 4 simple operations");
   }
 });
 
