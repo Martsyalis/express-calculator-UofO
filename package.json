@@ -1,0 +1,22 @@
+{
+  "name": "express-calculator-uofo",
+  "version": "1.0.0",
+  "description": "example of a smile express server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Martsyalis/express-calculator-UofO.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Martsyalis/express-calculator-UofO/issues"
+  },
+  "homepage": "https://github.com/Martsyalis/express-calculator-UofO#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
